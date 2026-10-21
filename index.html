@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formas Geométricas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>FORMAS GEOMÉTRICAS</h1>
+
+    <div class="container">
+      <div class="atividade">
+        <h2>Que forma geométrica é essa?</h2>
+
+        <div class="quadrado">?</div>
+
+        <input type="text" id="resposta" />
+        <button onclick="verificar()">OK</button>
+
+        <p id="resultado"></p>
+      </div>
+
+      <div class="atividade">
+        <h2>Que forma geométrica você quer ver?</h2>
+
+        <input type="text" id="nome" />
+        <button onclick="mostrar()">OK</button>
+
+        <div id="figura">?</div>
+
+        <p id="mensagem"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
